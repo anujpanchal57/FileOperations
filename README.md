@@ -1,6 +1,8 @@
 # FileOperations
 Different kinds of file operations using Python 3 
 
+* Code Snippets of READ, READLINE, READLINES, etc operations on file
+
 ## Resources used
 
 * IntelliJ IDEA
