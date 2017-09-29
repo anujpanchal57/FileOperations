@@ -5,6 +5,8 @@ Different kinds of file operations using Python 3
 
 * Code Snippets of WRITE, STRIP commands
 
+* Code Snippets of BINARY WRITE & READ commands
+
 ## Resources used
 
 * IntelliJ IDEA
@@ -12,6 +14,8 @@ Different kinds of file operations using Python 3
 * Python 3
 
 * `sample.txt` is the file on which all the file operations are performed
+
+* `imelda` and `cities.txt` are outcomes of the file `writing.py`
 
 ## Output Files
 
