@@ -1,21 +1,21 @@
-# # BW tells that its a binary file and we have to write it into BIN_FILE
-# with open("binary", 'bw') as bin_file:
-#     # Prints out the numbers from 0 to 16
-#     for i in range(17):
-#         # This line converts the decimal numbers into their respective byte format ,
-#         # which is then written in the file
-#         bin_file.write(bytes([i]))
+# BW tells that its a binary file and we have to write it into BIN_FILE
+with open("binary", 'bw') as bin_file:
+    # Prints out the numbers from 0 to 16
+    for i in range(17):
+        # This line converts the decimal numbers into their respective byte format ,
+        # which is then written in the file
+        bin_file.write(bytes([i]))
 
-# # Alternative for above code
-# # We get the exactly same result, because instead of looping we are giving it a range of 0-16 directly
-# with open("binary", 'bw') as bin_file:
-#     bin_file.write(bytes(range(17)))
-#
-#
-# # This helps to read the binary from the file and print it on the screen
-# with open("binary", 'br') as binFile:
-#     for b in binFile:
-#         print(b)
+# Alternative for above code
+# We get the exactly same result, because instead of looping we are giving it a range of 0-16 directly
+with open("binary", 'bw') as bin_file:
+    bin_file.write(bytes(range(17)))
+
+
+# This helps to read the binary from the file and print it on the screen
+with open("binary", 'br') as binFile:
+    for b in binFile:
+        print(b)
 
 # Given as the numbers and on the RHS are their HEX equivalents
 
