@@ -17,6 +17,8 @@ Different kinds of file operations using Python 3
 
 * `imelda` and `cities.txt` are outcomes of the file `writing.py`
 
+* `binary` and `binary2` are the outcomes of `binary.py` file
+
 ## Output Files
 
 * `cities,txt` and `imelda` are the resulting output files obtained after performing WRITE operations
